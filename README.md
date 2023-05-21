@@ -17,3 +17,7 @@ services: Contains the business logic of your application. Services typically en
 utils: Contains utility functions or helper files that can be reused across the application. It may include response formatting, error handling, validation helpers, and other common functionalities.
 
 This folder structure provides a modular organization, separating concerns and improving maintainability. Feel free to adapt it according to your specific needs and project requirements.
+
+To run project use `make run`
+
+To create db container from makefile use `make postgres-start` and `make createdb`
